@@ -1,0 +1,460 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/stock-vector-seamless-vertical-striped-texture.jpg);
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    color: #fff;
+    position: sticky;
+    top: -10px;
+    z-index: 1000;
+}
+header .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo img{
+    width: 60px;
+}
+
+header .container .menu .menu-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header .container .menu .menu-list .menu-item a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #444;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+header .container .menu .menu-list .menu-item:hover a{
+    background-color: blue;
+}
+.banner .container{
+    width: 100%;
+    height: 600px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content{
+    margin-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.content h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+.content p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+.content .destination-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.content .destination-list .destination-item{
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.content .destination-list .destination-item:hover{
+    transform: scale(1.01);
+}
+.content .destination-list .destination-item img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+.content .destination-list .destination-item h2{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0;
+    color: #333;
+}
+.content .destination-list .destination-item p{
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+    padding: 0 10px;
+}
+.content .destination-list .destination-item .collapse{
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}  
+.content .destination-list .destination-item .collapse .btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    background-color: #444;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.content .destination-list .destination-item .collapse .btn:hover{
+    background-color: blue;
+}
+.content .destination-list .destination-item .collapse .btn:focus{
+    outline: none;
+}
+.content .destination-list .destination-item .collapse .btn:active{
+    transform: scale(0.95);
+}
+.content .destination-list .destination-item .collapse .btn:focus-visible{
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+.content .destination-list .destination-item .collapse .destination{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .destination-list .destination-item .collapse .destination i{
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+.content .destination-list .destination-item .collapse .destination:hover i{
+    color: blue;
+}
+.content .destination-list .destination-item .collapse .destination:focus{
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+.content .destination-list .destination-item .collapse .destination:active{
+    transform: scale(0.95);
+}
+.content .destination-list .destination-item .collapse .destination:focus-visible{
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+.Popular-foods{
+    margin-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.Popular-foods h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+.Popular-foods p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+.Popular-foods .food-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.Popular-foods .food-list .food-item{
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.Popular-foods .food-list .food-item:hover{
+    transform: scale(1.01);
+}
+.Popular-foods .food-list .food-item img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+.Popular-foods .food-list .food-item h2{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0;
+    color: #333;
+}
+.Popular-foods .food-list .food-item p{
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+    padding: 0 10px;
+}
+.Popular-foods .food-list .food-item .collapse{
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.Popular-foods .food-list .food-item .collapse .btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    background-color: #444;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.Popular-foods .food-list .food-item .collapse .btn:hover{
+    background-color: blue;
+}
+.Popular-foods .food-list .food-item .collapse .btn:focus{
+    outline: none;
+}  
+.Popular-foods .food-list .food-item .collapse .btn:active{
+    transform: scale(0.95);
+}
+.Popular-foods .food-list .food-item .collapse .btn:focus-visible{
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+.Popular-foods .food-list .food-item .collapse .food{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Popular-foods .food-list .food-item .collapse .food i{
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+.Popular-foods .food-list .food-item .collapse .food:hover i{
+    color: blue;
+}
+.Popular-foods .food-list .food-item .collapse .food:focus{
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+.Popular-foods .food-list .food-item .collapse .food:active{
+    transform: scale(0.95);
+}
+.Popular-foods .food-list .food-item .collapse .food:focus-visible{
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}  
+.Popular-Events{
+    margin-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+} 
+.Popular-Events h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+.Popular-Events p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}    
+.Popular-Events .event-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.Popular-Events .event-list .event-item{
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.Popular-Events .event-list .event-item:hover{
+    transform: scale(1.01);
+}
+.Popular-Events .event-list .event-item img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+.Popular-Events .event-list .event-item h2{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0;
+    color: #333;
+}
+.Popular-Events .event-list .event-item p{
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+    padding: 0 10px;
+}
+.Popular-Events .event-list .event-item .collapse{
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.Popular-Events .event-list .event-item .collapse .btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    background-color: #444;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.Popular-Events .event-list .event-item .collapse .btn:hover{
+    background-color: blue;
+}
+.Popular-Events .event-list .event-item .collapse .btn:focus{
+    outline: none;
+}
+.Popular-Events .event-list .event-item .collapse .btn:active{
+    transform: scale(0.95);
+}
+.Popular-Events .event-list .event-item .collapse .btn:focus-visible{
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+.Popular-Events .event-list .event-item .collapse .event{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Popular-Events .event-list .event-item .collapse .event i{
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+.Popular-Events .event-list .event-item .collapse .event:hover i{
+    color: blue;
+}
+.Popular-Events .event-list .event-item .collapse .event:focus{
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+.Popular-Events .event-list .event-item .collapse .event:active{
+    transform: scale(0.95);
+}
+.Popular-Events .event-list .event-item .collapse .event:focus-visible{
+    outline: 2px solid blue;
+    outline-offset: 2px;
+}
+footer{
+    background-color: #444;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container .footer-logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+footer .container .footer-menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer .container .footer-menu .footer-menu-list {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 15px;
+    background-color: #444;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+}
+footer .container .footer-menu .footer-menu-list a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 15px;
+    background-color: #444;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}

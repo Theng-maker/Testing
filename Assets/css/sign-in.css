@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    color: #fff;
+    position: sticky;
+    top: -10px;
+}
+header .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo img{
+    width: 60px;
+}
+
+header .container .menu .menu-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header .container .menu .menu-list .menu-item a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #444;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+header .container .menu .menu-list .menu-item:hover a{
+    background-color: blue;
+}
+.banner .container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg-land.png);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .container .banner-content{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.banner .container .banner-content .title{
+    font-size: 45px;
+    color: black;
+    background: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+    color: #fff; /* White text */
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.banner .container .banner-content .description{
+    width: 60%;
+    font-size: 24px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+    color: #fff; /* White text */
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px #000;
+}
+.banner .container .sign-in{
+    width: 20%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .container .sign-in form{
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.banner .container .sign-in form input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f0f0;
+    transition: all 0.3s ease;
+}
+.banner .container .sign-in form .input-field{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.banner .container .sign-in form label{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .container .sign-in form label span{
+    width: 30%;
+    font-size: 16px;
+}
+
+.banner .container .sign-in form label input{
+    width: 10%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+.banner .container .sign-in form label a{
+    width: 35%;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+    margin-left: 90px;
+    display: inline-block;
+}
+.banner .container .sign-in form .btn{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}.banner .container .sign-in form .btn:hover{
+    background-color: #555;
+}
+.banner .container .sign-in form .line{
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .container .sign-in form .line hr{
+    width: 30%;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.banner .container .sign-in form .line span{
+    color: black;
+    font-size: 16px;
+    margin: 5px;
+}
+.banner .container .sign-in form .icon{
+    width: 100%;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .container .sign-in form .icon a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .container .sign-in form .icon a i{
+    font-size: 24px;
+    color: blue;
+}
+
+.banner .container .sign-in form .icon a:hover{
+    background-color: #ccc;
+}
+.banner .container .sign-in form .sign{
+    margin-top: 20px;
+    color: #333;
+}
+.banner .container .sign-in form .sign span{
+    color: white;
+}
+.banner .container .sign-in form .sign .sign-up{
+    text-decoration: none;
+    color: lightskyblue;
+}
